@@ -1,1 +1,1 @@
-Hello WEBPROG-SS221!
+Hello WEBPROG!
