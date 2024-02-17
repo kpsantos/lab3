@@ -19,7 +19,7 @@
     <a class="logo">shortscouture</a>
       <div class="navbar">
           <a href="#">Home</a>
-          <a href="phpScript.php">PHP Entry Form</a>
+          <a href="about.php">PHP Entry Form</a>
           <a href="#">Misc</a>
       </div>
   </nav>

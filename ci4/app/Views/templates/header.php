@@ -15,4 +15,4 @@
 	<title>shortscouture!</title>
 	<link rel="icon" type="image/xicon" href="images/chitoge.ico">
 </head>
-    <h1><?= esc($title) ?></h1>
+    
