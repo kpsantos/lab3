@@ -1,5 +1,4 @@
-<?php echo link_tag('css/website.css')
-
+<?php echo link_tag('css/website.css')?>
 <body class = "bg">
  
   <!--navbar-->
