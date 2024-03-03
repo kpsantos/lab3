@@ -13,20 +13,9 @@
 	<link rel="icon" type="image/xicon" href="images/chitoge.ico">
 </head>
 <body class = "bg">
- 
-  <!--navbar-->
-  <nav class ="basta">
-    <a class="logo">shortscouture</a>
-      <div class="navbar">
-          <a href="#">Home</a>
-          <a href="about.php">PHP Entry Form</a>
-          <a href="#">Misc</a>
-      </div>
-  </nav>
-  <!--html structure-->
   <main>
     <div class="welcome-container">
-    <header class="welcome-text">Welcome to  userpage!</header>
+    <header class="welcome-text">Welcome to Kyle's userpage!</header>
     </div>
     <div class="article">
       <div class="aboutme">

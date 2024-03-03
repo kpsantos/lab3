@@ -12,7 +12,7 @@
 <head>
 	<title>shortscouture!</title>
 	<link rel="icon" type="image/xicon" href="images/chitoge.ico">
-	<nav class ="basta">
+    <nav class ="basta">
     <a class="logo">shortscouture</a>
       <div class="navbar">
           <a href="pages/home.php">Home</a>

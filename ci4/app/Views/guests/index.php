@@ -1,15 +1,22 @@
-<h2><?= esc($title) ?></h2>
+<!--<h2><?= esc($title) ?></h2>-->
 
-<?php if (! empty($guest) && is_array($guest)): ?>
+<article>
+<?php if (! empty($guests) && is_array($guests)): ?>
 
-    <?php foreach ($guest as $guest_item): ?>
+    <?php foreach ($guests as $g): ?>
 
-        <h3><?= esc($guest_item['title']) ?></h3>
+        <h3><?= esc($g['name']) ?></h3>
 
         <div class="main">
-            <?= esc($guest_item['body']) ?>
+            <?= esc($g['email']) ?>
+	    <br>
+            <?= esc($g['website']) ?>
+            <br>
+            <?= esc($g['comment']) ?>
+	    <br>
+            <?= esc($g['gender']) ?>
+	    <br>
         </div>
-        <p><a href="/guest/<?= esc($guest_item['email'], 'url') ?>">View Guest Detail</a></p>
 
     <?php endforeach ?>
 
@@ -20,3 +27,4 @@
     <p>Unable to find any guests for you.</p>
 
 <?php endif ?>
+</article>

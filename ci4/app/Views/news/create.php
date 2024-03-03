@@ -3,6 +3,7 @@
 <?= session()->getFlashdata('error') ?>
 <?= validation_list_errors() ?>
 
+
 <form action="../news" method="post">
     <?= csrf_field() ?>
 
