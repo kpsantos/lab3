@@ -9,7 +9,12 @@ $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
 use App\Controllers\Pages;
+use App\Controllers\Guests;
 
+$routes->get('guests', [Guests::class, 'index']);   
+$routes->get('guests/(:segment)', [Guests::class, 'show']);
+$routes->get('guests/new', [Guests::class, 'new']); // Add this line
+$routes->post('guests', [Guests::class, 'create']);
 
 $routes->get('news', [News::class, 'index']);   
 $routes->get('news/new', [News::class, 'new']); // Add this line
