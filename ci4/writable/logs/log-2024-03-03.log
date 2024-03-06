@@ -478,3 +478,252 @@ in APPPATH/Controllers/Pages.php on line 16.
  2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
  3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:18 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:18 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:18 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guest/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guest/index.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('guest/index', [], true)
+ 3 APPPATH/Controllers/Guests.php(20): view('guest/index')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Guests->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:27 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('guest')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guest/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guest/index.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('guest/index', [], true)
+ 3 APPPATH/Controllers/Guests.php(20): view('guest/index')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Guests->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:41:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guest/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guest/index.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('guest/index', [], true)
+ 3 APPPATH/Controllers/Guests.php(20): view('guest/index')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Guests->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:43:35 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:43:35 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:43:35 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:44:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guest/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guest/index.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('guest/index', [], true)
+ 3 APPPATH/Controllers/Guests.php(20): view('guest/index')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Guests->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:44:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "guest/index.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guest/index.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('guest/index', [], true)
+ 3 APPPATH/Controllers/Guests.php(20): view('guest/index')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Guests->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guests))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:40 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:40 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:41 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:45 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:45 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:46:45 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:26 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:26 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:27 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:27 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:28 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:47 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:48 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:48:48 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:25 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:25 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:25 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:30 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:30 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:30 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:46 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:47 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:48 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 12:57:48 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 13:05:28 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 13:05:29 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('scripting.js')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-03 13:05:29 --> Error: Class "App\Controllers\PageNotFoundException" not found
+in APPPATH/Controllers/Pages.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Pages->view('website.css')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

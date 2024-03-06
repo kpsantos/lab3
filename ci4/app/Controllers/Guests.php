@@ -17,7 +17,7 @@ class Guests extends BaseController
         ];
 
         return view('templates/header', $data)
-            . view('guest/index')
+            . view('guests/index')
             . view('templates/footer');
     }
 
@@ -34,7 +34,7 @@ class Guests extends BaseController
         $data['title'] = $data['guest']['name'];
 
         return view('templates/header', $data)
-            . view('guest/view')
+            . view('guests/view')
             . view('templates/footer');
     }
 
@@ -43,7 +43,7 @@ class Guests extends BaseController
         helper('form');
 
         return view('templates/header', ['title' => 'Create a guest item'])
-            . view('guest/create')
+            . view('guests/create')
             . view('templates/footer');
     }
 
@@ -81,7 +81,7 @@ class Guests extends BaseController
         ]);
 
         return view('templates/header', ['title' => 'Create a guest item'])
-            . view('guest/success')
+            . view('guests/success')
             . view('templates/footer');
     }
-}
+} 

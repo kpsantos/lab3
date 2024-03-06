@@ -4,7 +4,7 @@
 
 	<form action="../guests" method="post">
 	    <?= csrf_field() ?>
-            <h2>Sign the Guest Book!</h2>
+            <h2>Feedback?</h2>
             Name: <input type="text" name="name" value="<?= set_value('name') ?>">
             <br><br>
             E-mail: <input type="text" name="email" value="<?= set_value('email') ?>">
