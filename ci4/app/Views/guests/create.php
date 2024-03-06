@@ -1,4 +1,12 @@
-<article class="welcome-container">
+<link rel="stylesheet" href="css/website.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--open sans font-->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
+<!--logo font-->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+<div class="welcome-container">
 	<?= session()->getFlashdata('error') ?>
 	<?= validation_list_errors() ?>
 

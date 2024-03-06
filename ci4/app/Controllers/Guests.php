@@ -12,7 +12,7 @@ class Guests extends BaseController
         $model = model(GuestModel::class);
 
         $data = [
-            'guest'  => $model->getGuest(),
+            'guests'  => $model->getGuest(),
             'title' => 'Guest Logbook',
         ];
 
@@ -84,4 +84,4 @@ class Guests extends BaseController
             . view('guests/success')
             . view('templates/footer');
     }
-} 
+}

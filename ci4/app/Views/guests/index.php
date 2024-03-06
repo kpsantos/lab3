@@ -23,15 +23,15 @@
             <?= esc($g['gender']) ?>
 	    <br>
         </div>
-
+       
     <?php endforeach ?>
-
+    <a href=<?= base_url('guests/new') ?>>Leave your feedback here!</a>
 <?php else: ?>
     
     <h3>No Guests</h3>
 
     <p>Unable to find any guests for you.</p>
-    <a href=<?= base_url('guests/new') ?>>Leave your feedback here!</a>
+    
 
 <?php endif ?>
 </section>
