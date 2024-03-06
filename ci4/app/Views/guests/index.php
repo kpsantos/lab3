@@ -3,7 +3,7 @@
 <main>
 
 <div class="welcome-container">
-    <header class="welcome-text">Guest Form!</header>
+    <header class="welcome-text">Guest Form</header>
 </div>
 <div class="article">
 <section class="aboutme1">
