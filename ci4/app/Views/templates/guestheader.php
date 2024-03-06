@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-<link rel="stylesheet" href="website.css">
+<link rel="stylesheet" href="css/website.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!--open sans font-->
@@ -17,7 +17,7 @@
       <div class="navbar">
           <a href="pages/home.php">Home</a>
           <a href="about.php">PHP Entry Form</a>
-          <a href="guests/create.php">Guests!</a>
+          <a href='guests/new'>Guest Feedback!</a>
       </div>
   </nav>
 </head>

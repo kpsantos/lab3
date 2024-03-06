@@ -25,13 +25,13 @@ class Guests extends BaseController
     {
         $model = model(GuestModel::class);
 
-        $data['guest'] = $model->getGuest($email);
+        $data['guests'] = $model->getGuest($email);
 
-        if (empty($data['guest'])) {
+        if (empty($data['guests'])) {
             throw new PageNotFoundException('Cannot find the guest item: ' . $email);
         }
 
-        $data['title'] = $data['guest']['name'];
+        $data['title'] = $data['guests']['name'];
 
         return view('templates/header', $data)
             . view('guests/view')

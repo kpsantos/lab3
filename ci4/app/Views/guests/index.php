@@ -1,6 +1,12 @@
 <!--<h2><?= esc($title) ?></h2>-->
+<body class="bg">
+<main>
 
-<article>
+<div class="welcome-container">
+    <header class="welcome-text">Guest Form!</header>
+</div>
+<div class="article">
+<section class="aboutme1">
 <?php if (! empty($guests) && is_array($guests)): ?>
 
     <?php foreach ($guests as $g): ?>
@@ -21,10 +27,14 @@
     <?php endforeach ?>
 
 <?php else: ?>
-
+    
     <h3>No Guests</h3>
 
     <p>Unable to find any guests for you.</p>
+    <a href=<?= base_url('guests/new') ?>>Leave your feedback here!</a>
 
 <?php endif ?>
-</article>
+</section>
+</div>
+</main>
+</body>
